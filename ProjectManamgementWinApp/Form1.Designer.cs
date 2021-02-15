@@ -49,7 +49,7 @@
             this.buttonProjects.TabIndex = 1;
             this.buttonProjects.Text = "Projects";
             this.buttonProjects.UseVisualStyleBackColor = true;
-            this.buttonProjects.Click += new System.EventHandler(this.Button1_Click);
+            //this.buttonProjects.Click += new System.EventHandler(this.Button1_Click);
             // 
             // buttonUsers
             // 
@@ -59,7 +59,7 @@
             this.buttonUsers.TabIndex = 1;
             this.buttonUsers.Text = "Users";
             this.buttonUsers.UseVisualStyleBackColor = true;
-            this.buttonUsers.Click += new System.EventHandler(this.Button1_Click);
+            //this.buttonUsers.Click += new System.EventHandler(this.Button1_Click);
             // 
             // splitContainer1
             // 
@@ -75,7 +75,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.tableLayoutPanel1);
-            this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.SplitContainer1_Panel2_Paint);
+            //this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.SplitContainer1_Panel2_Paint);
             this.splitContainer1.Size = new System.Drawing.Size(778, 357);
             this.splitContainer1.SplitterDistance = 132;
             this.splitContainer1.TabIndex = 2;
@@ -106,7 +106,7 @@
             this.labelProjects.TabIndex = 0;
             this.labelProjects.Text = "Projects";
             this.labelProjects.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.labelProjects.Click += new System.EventHandler(this.Label1_Click);
+            //this.labelProjects.Click += new System.EventHandler(this.Label1_Click);
             // 
             // labelTasks
             // 
